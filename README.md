@@ -23,7 +23,7 @@ Now execute this file:
 This will:
 
 1. Execute a non-authenticated request to the API: this will return a 401 Unauthorized
-2. Create and confirm a test user. The e-mailadres doesn't have to exist
+2. Create and confirm a test user. The e-mail address doesn't have to exist
 3. Request a JWT token using the username's e-mail and password
 4. Execute an authenticated request to the API using the JWT token: this returns a 200 OK
 
